@@ -4,15 +4,33 @@
 
 1. `npm i`
 2. `npx install-peerdeps --dev eslint-config-airbnb`
+3. Look at [package.json](./package.json) to see what you installed.
+4. Read the comments throughout to see what is happening and remind yourself how to build.
+5. Look into each file and be sure to explain to yourself what each one is used for.
 
-### Refresher on Export & Importing
+### What's included
+
+1. This template has ESLINT, MOCHA, & DOTENV configured and ready to use.
+2. [Mocha](https://mochajs.org/) with a [tests folder](./tests/test-bank-transaction-classes).
+3. [DOTENV](https://www.npmjs.com/package/dotenv) with .env file and an import statement to show it's usage.
+4. [ESLINT](https://eslint.org/docs/rules) with AirBNB as a template for code styling.
+5. [.gitattributes](./.gitattributes) file to help with line endings.
+6. It also [includes examples of importing and exporting modules](../scripts/practice-scripts.js) in CommonJS.
+
+---
+
+### Refreshers & How-Tos
+
+In case you want to build from scratch below is a collection of guides on how to some of these things.
+
+#### How to Export & Importing
 
 1. export modules: `module.exports = { BankAccount, Transaction }`
 2. `const myImports = require('file/pathname')` - hold the import in a variable
 3. if using mocha import the classes and mocha in the test file
 4. run the test `npm test tests/test-bank-transaction-classes`
 
-### Reminder on code styling with Eslint and Prettier
+#### Reminder on code styling with Eslint and Prettier
 
 This repo is setup to begin working immediately with AirBNB code style rules, using ESLint for warnings and errors, Prettier as a formatter and configured for VS Code.
 

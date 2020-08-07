@@ -3,6 +3,7 @@ node_modules
 .env
 
 # The following is a generic file to exclude sensitive and redundant files from your gitHub repo
+
 # Created by https://www.toptal.com/developers/gitignore/api/node,macos,windows,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,windows,visualstudiocode
 

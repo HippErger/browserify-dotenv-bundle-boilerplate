@@ -1,0 +1,11 @@
+# Hashtags(#) like the one you see at the beginning of this line denote a comment not read by git. To UNCOMMENT a configuration rule remove the hashtag/pound sign.
+
+# version control systems like git will automatically adjust the line endings with a Line Feed (LF) like Unix and Linux systems. However Windows systems use a Carriage Return Line Feed (CRLF). This will cause and error to appear everytime you create a new line. To fix this adjust your ESLINT Rules usign the following link as a reference guide & UNCOMMENT one of the following configurations:
+
+# ESLINT- CR/CRLF: https://eslint.org/docs/rules/linebreak-style
+
+# Unix & Linux Systems (don't uncomment this line)
+# *.js text eol=lf
+
+# Windows Systems (don't uncomment this line)
+#*.js text eol=crlf

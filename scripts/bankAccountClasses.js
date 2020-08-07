@@ -14,5 +14,5 @@ class Transaction {
   }
 }
 
-// export your classes, functions, or objects
+// export your classes, functions, or objects at the end of your file
 module.exports = { BankAccount, Transaction }
